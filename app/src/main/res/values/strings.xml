@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">BMIExample</string>
+    <string name="hint_wt">Enter Your Weight</string>
+    <string name="hint_htf">Enter Your Height (in FT)</string>
+    <string name="hint_htI">Enter Your Height (in IN)</string>
+</resources>

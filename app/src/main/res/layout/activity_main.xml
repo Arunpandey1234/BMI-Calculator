@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:id="@+id/llMain"
+    tools:context=".MainActivity">
+
+    <!-- Input for weight -->
+    <EditText
+        android:id="@+id/editWeight"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="@string/hint_wt"
+        android:inputType="number"
+        android:gravity="center" />
+
+    <!-- Input for height in feet -->
+    <EditText
+        android:id="@+id/edtHeightFT"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="@string/hint_htf"
+        android:inputType="number"
+        android:gravity="center" />
+
+    <!-- Input for height in inches -->
+    <EditText
+        android:id="@+id/edtHeightIN"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="@string/hint_htI"
+        android:inputType="number"
+        android:gravity="center" />
+
+    <!-- Button to calculate BMI -->
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="11dp"
+        android:text="Calculate BMI"
+        android:id="@+id/btmCalculate"
+        android:backgroundTint="#2196F3" />
+
+    <!-- TextView to display result -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/txtResult"
+        android:text="Result"
+        android:textSize="21sp"
+        android:textStyle="bold"
+        android:layout_marginTop="11dp" />
+
+    <!-- Button to reset the inputs and result -->
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="11dp"
+        android:text="Reset"
+        android:id="@+id/btmReset"
+        android:backgroundTint="#F44336" />
+
+
+</LinearLayout>
